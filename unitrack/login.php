@@ -34,42 +34,44 @@ if (isset($_POST["submit"])) {
 
 <body>
     <div class="container">
-        <form action="" class="" method="post" autocomplete="off">
-            <table>
-                <tr style="text-align: center;">
-                    <td colspan="2">
-                        <h2>Login</h2>
-                    </td>
-                </tr>
-                <tr>
-                    <td><label for="email">email : </label></td>
-                    <td><input type="email" name="email" value="" id="email" required></td>
-                </tr>
+        <div class="card">
+            <form action="" class="" method="post" autocomplete="off">
+                <table>
+                    <tr style="text-align: center;">
+                        <td colspan="2">
+                            <h2>Login</h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">email : </label></td>
+                        <td><input type="email" name="email" value="" id="email" required></td>
+                    </tr>
 
-                <tr>
-                    <td><label for="password">Password : </label></td>
-                    <td><input type="password" name="password" value="" id="password" required></td>
-                </tr>
-                <tr style="text-align: center;">
-                    <td colspan="2">
-                        <label for="dropdown">Login As:</label>
-                        <select id="dropdown">
-                            <option value="landlord">Landlord</option>
-                            <option value="student" selected>Student</option>
-                            <option value="warden">Warden</option>
-                            <option value="admin">Admin</option>
-                        </select>
-                    </td>
-                </tr>
+                    <tr>
+                        <td><label for="password">Password : </label></td>
+                        <td><input type="password" name="password" value="" id="password" required></td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td colspan="2">
+                            <label for="dropdown">Login As:</label>
+                            <select id="dropdown">
+                                <option value="landlord">Landlord</option>
+                                <option value="student" selected>Student</option>
+                                <option value="warden">Warden</option>
+                                <option value="admin">Admin</option>
+                            </select>
+                        </td>
+                    </tr>
 
-                <tr style="text-align: center;">
-                    <td colspan="2"><button type="submit" name="submit">Login</button></td>
-                </tr>
-                <tr style="text-align: center;">
-                    <td colspan="2"><a href="registration.php">didn't have an account ?</a></td>
-                </tr>
-            </table>
-        </form>
+                    <tr style="text-align: center;">
+                        <td colspan="2"><button type="submit" name="submit">Login</button></td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td colspan="2"><a href="registration.php">didn't have an account ?</a></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
     </div>
 
 </body>

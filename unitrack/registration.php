@@ -50,57 +50,64 @@ if (isset($_POST["submit"])) {
 </head>
 
 <body>
-    <dev class="container">
-        
-        <form class="" action="" method="post" autocomplete="off">
-        <table>
-        <tr style="text-align: center;"><td colspan="2"><h2>Register as Student</h2></td></tr>
-            
-                <tr>
-                    <td><label for="name">Name : </label></td>
-                    <td><input type="text" name="name" id="name" value="" required></td>
-                </tr>
+    <div class="container">
+        <div class="card">
 
-                <tr>
-                    <td><label for="email">email : </label></td>
-                    <td><input type="email" name="email" id="email" value="" required></td>
-                </tr>
+            <form class="" action="" method="post" autocomplete="off">
+                <table>
+                    <tr style="text-align: center;">
+                        <td colspan="2">
+                            <h2>Register as Student</h2>
+                        </td>
+                    </tr>
 
-                <tr>
-                    <td><label for="password">password : </label></td>
-                    <td><input type="password" name="password" id="password" value="" required></td>
-                </tr>
+                    <tr>
+                        <td><label for="name">Name : </label></td>
+                        <td><input type="text" name="name" id="name" value="" required></td>
+                    </tr>
 
-                <tr>
-                    <td><label for="c_password">Confirm Password : </label></td>
-                    <td><input type="password" name="c_password" id="c_password" value="" required></td>
-                </tr>
+                    <tr>
+                        <td><label for="email">email : </label></td>
+                        <td><input type="email" name="email" id="email" value="" required></td>
+                    </tr>
 
-                <tr>
-                    <td><label for="phone">Phone Number : </label></td>
-                    <td><input type="text" name="phone" id="phone" value="" required></td>
-                </tr>
+                    <tr>
+                        <td><label for="password">password : </label></td>
+                        <td><input type="password" name="password" id="password" value="" required></td>
+                    </tr>
 
-                <tr style="text-align: center;">
-                    <td colspan="2">
-                        <label for="dropdown">Register As:</label>
-                        <select id="dropdown" name="dropdown">
-                            <option value="landlord">Landlord</option>
-                            <option value="student" selected>Student</option>
-                        </select>
-                    </td>
-                </tr>
+                    <tr>
+                        <td><label for="c_password">Confirm Password : </label></td>
+                        <td><input type="password" name="c_password" id="c_password" value="" required></td>
+                    </tr>
 
-                <tr style="text-align: center;">
-                    <td colspan="2"><button type="submit" name="submit">Register</button></td>
-                </tr>
-            
-            <tr style="text-align: center;"><td colspan="2"><a href="login.php">already have an account?</a></td></tr>
-            </table>
-        </form>
-        <br>
-       
-    </dev>
+                    <tr>
+                        <td><label for="phone">Phone Number : </label></td>
+                        <td><input type="text" name="phone" id="phone" value="" required></td>
+                    </tr>
+
+                    <tr style="text-align: center;">
+                        <td colspan="2">
+                            <label for="dropdown">Register As:</label>
+                            <select id="dropdown" name="dropdown">
+                                <option value="landlord">Landlord</option>
+                                <option value="student" selected>Student</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr style="text-align: center;">
+                        <td colspan="2"><button type="submit" name="submit">Register</button></td>
+                    </tr>
+
+                    <tr style="text-align: center;">
+                        <td colspan="2"><a href="login.php">already have an account?</a></td>
+                    </tr>
+                </table>
+            </form>
+            <br>
+        </div>
+    </div>
 </body>
 
 </html>
